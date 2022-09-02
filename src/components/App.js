@@ -1,5 +1,6 @@
 import React, { useReducer } from 'react'
 import { counterReducer } from '../reducers/counterReducer';
+import { INCREMENT, DECREMENT } from './action.type';
 import '../styles/App.css';
 const App = () => {
 const [state,dispatch] = useReducer(counterReducer,{ count: 0 })
