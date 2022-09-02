@@ -1,3 +1,5 @@
+import { INCREMENT, DECREMENT } from '../components/action.type';
+
 const counterReducer = (state,action) =>{
   
   const INCREMENT = 'increment';
